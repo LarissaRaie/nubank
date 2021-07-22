@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 *{
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-
  }
  header {
     width: 100%;
@@ -16,6 +14,7 @@ body{
     background: #FFF;
     position:fixed;
     box-shadow: 0px 0px 3px rgba(29, 27, 27, 0.363);
+    z-index: 2;
     }
 nav {
         list-style: none;
@@ -43,29 +42,36 @@ a:hover{
 #logo{
     margin-left: 30px;
     margin-top: 20px;
+    float: left;
 }
 #liw{
-    margin-left: 120px;
- }
+    width: 12%;
+}
 #queroser{
-    margin-right: 0px;
    background-color: #8931b6;
-   margin-left: 1140px;
+   width: 200px;
+   float: left;
+   top: 0px;
+   right: 0px;
+   height: 82px;
+   padding: 25px 0px;
+   justify-content: center;
    text-align: center;
-    top: 0px;
+   align-items: center;
+   text-align: center;
     position:fixed;
     color: white;  
     font-weight: bold;
-    padding: 26px 15px;
-    right: 0px;
-    left: 0px;
+
     font-size: 16px
 }
 #image1{
+    justify-content: center;
     background-image: url('../img/womanjumping.jpg');
     background-repeat: no-repeat;
-    height: 883px;
-    background-size: 1200px;
+    height: 135vh;
+    width: 90vw;
+    background-size: 90vw;
     margin-left: 74px;
     margin-top: 10px;
     
@@ -86,19 +92,20 @@ h1{
     
  }
  #celular{
+     margin-left: 0px;
      padding: 13px 158px;
-     margin-top: 80px;
+     margin-top: 85px;
  }
  
  #parte2{
      background-color: rgb(245, 245, 245);
-     height: 705px;
+     height: 500px;
     
 }
 h2{
     margin-left: 70px;
     color:grey;
-    font-size: 45px;
+    font-size: 35px;
     
 }
 #text1{
@@ -113,7 +120,7 @@ h2{
 }
 #parte3{
     background-color: white;
-    height: 542px;
+    height: 500px;
 
 }
 #parte3{
@@ -121,12 +128,12 @@ margin-right: 800px;
 }
 #parte4{
     background-color: rgb(92, 13, 138);
-    height: 680px;
+    height: 500px;
      }
 h3{
         margin-left: 70px;
         color:grey;
-        font-size: 45px;
+        font-size: 35px;
         margin-right: 869px;
      }
 
@@ -142,34 +149,33 @@ h3{
 }
 #parte5{
     background-image: url('../img/people.jpg');
-    height: 540px;
+    height: 500px;
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     margin-right: 0px;
-
 }
 h4{
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 75px;
     margin-right:780px;
 }
 #parte6{
     background-image: url('../img/pessoas.jpg');
-    height: 565px;
+    height: 500px;
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
 }
 #parte7{
     background-image: url('../img/sorrindo.jpg');
-    height: 550px;
+    height: 500px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
 }
 h5{
-    font-size: 45px;
+    font-size: 35px;
     margin-left: 75px;
     margin-right:930px;
 }
@@ -209,7 +215,7 @@ a{
     margin-right: 20px;
  }
  #facebook{
-     margin-left: 900px;
+     margin-left: 800px;
      margin-right: 20px;
  }
  #instagram{
@@ -235,7 +241,7 @@ a{
     height: 110px;
     border-top: solid 1px rgba(128, 128, 128, 0.158);
     color: white;
-    padding-left: 1070px;
+    padding-left: 1000px;
     padding-top: 45px;
 }
 #pt{
