@@ -5,7 +5,7 @@ Clone da interface da página da home do Nubank feito com HTML e CSS.
 
 
 ## Link para a aplicação:
-[Nubank Home](larissasiq.github.io/nubank-home/)
+[Nubank Home](https://larissasiq.github.io/nubank-home/)
 ## Feito por:
 * [Larissa Siqueira](https://github.com/LarissaSiq)
 
